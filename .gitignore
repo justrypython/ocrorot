@@ -4,3 +4,5 @@ build
 *.tgz
 *.pt
 .ipynb_checkpoints
+*.png
+*.jpg

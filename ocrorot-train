@@ -33,7 +33,7 @@ parser.add_argument("-P", "--makepipeline", default=None)
 parser.add_argument("-M", "--makemodel", default=None)
 parser.add_argument("--exec", dest="execute", nargs="*", default=[])
 parser.add_argument(
-    "--input", default="/home/tmb/tmb-ocr/uw3-patches/uw3-patches-@010.tgz")
+    "--input", default="data/patches/uw3-patches-010.tgz")
 
 args = parser.parse_args()
 ARGS = {k: v for k, v in args.__dict__.items()}

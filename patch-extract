@@ -1,9 +1,9 @@
 #!/usr/bin/python
 import argparse
 from random import randint
-
-from numpy import random
+#from numpy import random
 from pylab import *
+import random
 from scipy import ndimage as ndi
 from dlinputs import gopen, utils
 
